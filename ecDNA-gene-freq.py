@@ -4,9 +4,14 @@ def main():
     aggData = pd.read_csv('aggregated_results.csv')
     aggData = aggData[['Sample name', 'Classification', 'All genes']]
 
+    #filter for breast cancer samples
     brCan = aggData[aggData['Sample name'].str.contains('BREAST')]
+    
+    #drop rows with NaN in 'Classification' column
     brCan = brCan.dropna(subset=['Classification'])
     print(brCan['Classification'])
+
+    #filter for ecDNA classifications
     brCan = brCan[brCan['Classification'].str.contains('ecDNA')]
     print(brCan)
 

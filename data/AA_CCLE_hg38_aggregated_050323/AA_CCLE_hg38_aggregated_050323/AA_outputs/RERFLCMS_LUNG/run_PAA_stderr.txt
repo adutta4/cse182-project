@@ -1,0 +1,215 @@
+/usr/bin/ps: /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/anaconda3-2020.11-da3i7hmt6bdqbmuzq6pyt7kbm47wyrjp/lib/libuuid.so.1: no version information available (required by /lib64/libblkid.so.1)
+/usr/bin/ps: /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/anaconda3-2020.11-da3i7hmt6bdqbmuzq6pyt7kbm47wyrjp/lib/libuuid.so.1: no version information available (required by /lib64/libblkid.so.1)
+INFO:    Converting OCI blobs to SIF format
+WARNING: 'nodev' mount option set on /tmp, it could be a source of failure during build process
+INFO:    Starting build...
+2022/05/23 23:30:16  info unpack layer: sha256:4d32b49e2995210e8937f0898327f196d3fcc52486f0be920e8b2d65f150a7ab
+2022/05/23 23:30:16  info unpack layer: sha256:a302a6db6fd30e7458888a90f1390360a4eb83c25d78def0bdb5631fe067a470
+2022/05/23 23:30:16  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2022/05/23 23:30:16  info unpack layer: sha256:40fe221ee7272c0715d46931c76fb3747f1335ba738f0b041d86dc15c7a012c6
+2022/05/23 23:30:16  info unpack layer: sha256:2cab4a87355b95265def0f3bdf7c9e8a19a0953bc1145f63922c798a257dfec2
+2022/05/23 23:30:16  info unpack layer: sha256:a64f903ee3a0e64521fe8c86148867676001972372eaacec3c7774818ff3c921
+2022/05/23 23:30:16  info unpack layer: sha256:84aadffe078b48665f4d1895b22024b9514895ab943c76577fccc1dc10e0e0ad
+2022/05/23 23:30:17  info unpack layer: sha256:4e2628157bd6b3b21d4f0360cd078a0d5f18ea6a707ea51dbcbd82a5cf8aa108
+2022/05/23 23:30:17  warn rootless{usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-ptp-helper} ignoring (usually) harmless EPERM on setxattr "security.capability"
+2022/05/23 23:30:18  info unpack layer: sha256:6586cd861b3bd33ca356b968b94fb9954538731b760edd6a220b20dc68327124
+2022/05/23 23:30:18  info unpack layer: sha256:ba64bea1b1d142191dbd0965e59ba5adda16830a5c23b098b3a88aebb45fa088
+2022/05/23 23:30:18  info unpack layer: sha256:b3957e359dbf4e2fb87a25d5d0792eb8260c6dadf109309a763e2b6d5a56f279
+2022/05/23 23:30:18  info unpack layer: sha256:4df7296c296670d43c02481fb72925aa4941a1caa052b2fe84af73f5a78018c3
+2022/05/23 23:30:18  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2022/05/23 23:30:18  info unpack layer: sha256:cdfbde3f9d78449bc608adff45601c75b2a29e62920a7aaf15a9e3d1ab8dfeba
+2022/05/23 23:30:18  info unpack layer: sha256:f73a79d5cdff1158d2ccb47157a5b7cfd778c2c8b8f13e4658764b7865c0fee6
+2022/05/23 23:30:21  info unpack layer: sha256:9512b6366ddaa86316292e918dc1f2e8132b8aa0f7aec722856b4160e5f744ef
+2022/05/23 23:30:22  info unpack layer: sha256:d4f43b81fcd10ddf39e0dec7dfb7d8672831dd9b62d0b2202d983815fad00682
+2022/05/23 23:30:25  info unpack layer: sha256:daf42fed753466ec30466b1cf5dfe0464a4a5360e6d1dc4c811ec94564a103fc
+2022/05/23 23:30:25  info unpack layer: sha256:bb3d9735b8822deaa7936b4b53074d96a8ed61ab025b70d3ef6738a5b6e60aa3
+2022/05/23 23:30:25  info unpack layer: sha256:3cf3f9b9aab086cf55498f24fe4c55f8377d884ca45fd26b8c767e1475e7f6ee
+2022/05/23 23:30:25  info unpack layer: sha256:a59d393737df1bb4000fe0e486cd639a8b5e8a1d53343f514e10e57d6bfb1493
+2022/05/23 23:30:25  info unpack layer: sha256:271b973a63d3c7393282212a12a082c2ffffe0cc996fcb7469cbb3113946bb67
+2022/05/23 23:30:29  info unpack layer: sha256:773239b0181c4e3760ef80da155154bb276e947c59056f1e2d6b8311566a4ed2
+2022/05/23 23:30:32  info unpack layer: sha256:cd6a48f6bf722696a987bc49a6a2e5e6046c1e7bb2dd737d3d3a284cbe500ef5
+2022/05/23 23:30:32  info unpack layer: sha256:4a392c177da873258b5f1ef0c5fe9d9396ec8f388e38a659fd525569704a52c6
+2022/05/23 23:30:32  info unpack layer: sha256:cf00ea74f854bc4c85f7b5b4122cd4035cba61120c364f8d5ab518b2148da34f
+2022/05/23 23:30:32  info unpack layer: sha256:d3cc2b38a84854d2fc72ad813c99519a9279fe78c8607ba15472caba5319ba0f
+2022/05/23 23:30:32  warn rootless{opt/genepatt/programs/mosek/8/tools/platform/linux64x86/bin/libmosek64.so} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2022/05/23 23:30:32  info unpack layer: sha256:62ec6f717bf4a3aa55d4035309625f115c9dc62e8caf42c862b5f347b4d7e9b1
+2022/05/23 23:30:32  info unpack layer: sha256:d32a13c871cc3c070ec33d47edb45a917afd497f28e3851db6eb262969b26a09
+2022/05/23 23:30:32  info unpack layer: sha256:5eba19188b2e0b293c98ac6c77ced3cf35b870d079494528b38893c24575fca4
+2022/05/23 23:30:32  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2022/05/23 23:30:32  info unpack layer: sha256:7463c852e91753275e54ebb3acf12036c87cbd1cab5325d7b1dce29c772b9d4b
+2022/05/23 23:30:32  info unpack layer: sha256:ec9e1c14a5b0109001cf2432f1fe4793f39c1ccbbf3740946b00786133d54871
+2022/05/23 23:30:32  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2022/05/23 23:30:32  info unpack layer: sha256:d054f8dcaba32ef164557a48406cb37f8a5f06fe538830f189d7cb42e319cc2c
+2022/05/23 23:30:32  info unpack layer: sha256:a629daaf8fbe3ac9fbf8ab0f551710d9291dc23e1cb6866f09aad1f9f9adac0a
+2022/05/23 23:30:32  info unpack layer: sha256:461d9124fa2aee630d48162567f4d3f660108ca3e842aa8819c7764137310262
+2022/05/23 23:30:32  info unpack layer: sha256:282356bd1366aff4091f3198b7230fd7261a4489d5fb8081d2351c373c879fe5
+2022/05/23 23:30:32  info unpack layer: sha256:6e1c3180f43443342ebc78e08b8836fc8854020454aad70328429e9ac89ed1dd
+2022/05/23 23:30:32  info unpack layer: sha256:211b58ce3ba2c8227caae9d886753bb8e6e961c195886443d00f713ca00ffd3d
+2022/05/23 23:30:32  info unpack layer: sha256:ef1677bccf70d47fd8cc6d5f5c4887ceb4d782b2c2989cef49b2404a061c407a
+2022/05/23 23:30:32  info unpack layer: sha256:5f4f3d4a88540a47ec090a0ea205914f6217786a538c9b9eb1cb2c7c58c718d1
+2022/05/23 23:30:33  info unpack layer: sha256:3dc4f1b8456001636814ce7831b1abaccc48e0d2a7bd2107b72ce6d6150f6469
+2022/05/23 23:30:33  info unpack layer: sha256:29e66c2c36a2e311d03a55b857a1a94bc4d512ae4589815ad9866129ad15e477
+2022/05/23 23:30:33  info unpack layer: sha256:53d7941532b6ca57a2f9e9eb33ae467ad3a5cf7987f10116e6d964f0eced6e51
+2022/05/23 23:30:33  info unpack layer: sha256:50a56e777b277c8e8fcd6b6d725dae0ee54abfad8e837a2e0cbf5c0ff386446f
+2022/05/23 23:30:33  info unpack layer: sha256:6eed8bd4ea257165c0dfb6f5b7bc7d8d85b799c0d78b221a8d0f6eda9ccccf3e
+2022/05/23 23:30:33  info unpack layer: sha256:90c1f65589087cd9678cd7817bd03d1a2eba7e45329e4874305e0045522a1f5c
+2022/05/23 23:30:33  info unpack layer: sha256:6b3783a8fd0736e332c1f6f7b4b850e0b304a3fad26ae79a169c23fa065da484
+2022/05/23 23:30:33  info unpack layer: sha256:044cd294af0d95192ec9800b0ff1db4bfab7d694018804b8379c36989b3b2cac
+INFO:    Creating SIF file...
+/usr/local/lib/python3.8/dist-packages/skgenome/intersect.py:11: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import Int64Index
+CNVkit 0.9.7
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/GRCh38_cnvkit_filtered_ref.target-tmp.bed with 568558 regions
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/GRCh38_cnvkit_filtered_ref.antitarget-tmp.bed with 0 regions
+Running 1 samples in 24 processes (that's 24 processes per bam)
+Running the CNVkit pipeline on /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.rmdup.bam ...
+Processing reads in SRR8670760.cs.rmdup.bam
+Time: 583.021 seconds (2063000 reads/sec, 975 bins/sec)
+Summary: #bins=568558, #reads=1202772070, mean=2115.4782, min=0.0, max=39324.39603960396 
+Percent reads in regions: 86.457 (of 1391182868 mapped)
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.targetcoverage.cnn with 568558 regions
+Skip processing SRR8670760.cs.rmdup.bam with empty regions file /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/GRCh38_cnvkit_filtered_ref.antitarget-tmp.bed
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.antitargetcoverage.cnn with 0 regions
+Processing target: SRR8670760.cs.rmdup
+Keeping 566505 of 568558 bins
+Correcting for GC bias...
+Processing antitarget: SRR8670760.cs.rmdup
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.cnr with 566505 regions
+Segmenting /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.cnr ...
+Segmenting with method 'cbs', significance threshold 1e-06, in 24 processes
+Post-processing /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.cns ...
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.cns with 655 regions
+Applying filter 'ci'
+Filtered by 'ci' from 655 to 392 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 1
+log2=nan found; replacing with neutral copy number 1
+log2=nan found; replacing with neutral copy number 1
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.call.cns with 392 regions
+Segments do not cover all bins (566505), only 566504 of them
+Significant hits in 0/566504 bins (0%)
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.bintest.cns with 0 regions
+/usr/local/lib/python3.8/dist-packages/skgenome/intersect.py:11: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import Int64Index
+Dropped 2047 rows with missing log2 values
+Segmenting with method 'cbs', significance threshold 0.0001, in 24 processes
+Smoothing overshot at 2 / 17592 indices: (-27.316020711656662, 1.127246095637214) vs. original (-25.176, 1.74568)
+Smoothing overshot at 3 / 7418 indices: (-27.41258634506601, 2.5415644875059034) vs. original (-25.1812, 2.35392)
+Smoothing overshot at 11 / 7047 indices: (-26.56968046249872, 2.2209831596352876) vs. original (-25.3288, 1.63272)
+Smoothing overshot at 4 / 1972 indices: (-25.771292344304076, 2.057670364597578) vs. original (-24.6764, 2.3611)
+Smoothing overshot at 3 / 3141 indices: (-25.4864503479877, 2.0353062819442784) vs. original (-24.6757, 2.9443)
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.cns with 704 regions

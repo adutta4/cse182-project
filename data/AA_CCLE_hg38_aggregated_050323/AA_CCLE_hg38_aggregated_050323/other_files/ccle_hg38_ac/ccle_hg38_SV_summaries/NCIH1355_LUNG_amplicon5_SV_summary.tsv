@@ -1,0 +1,2 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr12	117099327	chr12	117161028	duplication-like	3	ecDNA	-+	117099328	117161027

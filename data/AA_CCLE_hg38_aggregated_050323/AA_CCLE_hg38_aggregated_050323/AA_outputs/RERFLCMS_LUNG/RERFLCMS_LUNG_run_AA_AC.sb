@@ -1,0 +1,29 @@
+#!/bin/bash -l
+#
+#SBATCH --no-requeue
+#SBATCH --job-name=SRR8670760_run_AA_AC
+#SBATCH -D /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760
+#SBATCH --output=/expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/run_AA_stdout.txt
+#SBATCH --error=/expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/run_AA_stderr.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=32G
+#SBATCH --cpus-per-task=1
+#SBATCH --time=48:00:00
+#SBATCH --account=csd714
+#
+#SBATCH --partition=ind-shared
+
+current=$(date)
+echo "Current time : $current"
+
+module load singularitypro
+
+chmod a+rwx /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.rmdup.bam
+singularity pull --disable-cache docker://genepattern/amplicon-architect:v1.2.1
+singularity exec --bind /expanse amplicon-architect_v1.2.1.sif bash /opt/genepatt/run_aa_v2.sh SRR8670760 1 GRCh38 /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.rmdup.bam Yes Yes -1 -1 none
+
+
+current=$(date)
+echo "Current time : $current"
+

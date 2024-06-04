@@ -1,0 +1,140 @@
+Current time : Tue May 24 12:58:50 PDT 2022
+This is working
+
+
+python2 /opt/genepatt/programs/PrepareAA-master/PrepareAA.py -s SRR8670765 -t 1 --ref GRCh38 --sorted_bam /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765.cs.rmdup.bam --run_AA --run_AC
+
+
+total 11163729
+drwxr-sr-x 4 edwin5588 csd714      75776 Mar 14 08:54 GRCh38
+-rw-r--r-- 1 edwin5588 csd714         56 May 18 18:18 GRCh38_indexed_md5sum.txt
+-rw-r--r-- 1 edwin5588 csd714 4605659201 May 19 09:37 GRCh38_indexed.tar.gz
+drwxrwsrwx 5 edwin5588 csd714      57344 May 24 12:58 ..
+-rw-r--r-- 1 edwin5588 csd714          0 May 24 13:00 coverage.stats
+drwxr-sr-x 3 edwin5588 csd714      57344 May 24 13:00 .
+Global ref name is GRCh38
+('read length:', 100.9312217996754, 'insert size:', 305.87657217821015, 'insert std dev:', 101.11347988502925, 'max_insert:', 609.2170118332979, 'percent proper:', 0.9837287969672135, 'num_sdevs', 3)
+('coverage stats', (31.749787399437935, 32.73660998076128, 9.035080992551402, 31.85536900654207, 33.10041095518723, 9.45833696611222, 100.9312217996754, 305.87657217821015, 101.11347988502925, 2.5361325231224328, 609.2170118332979, 3, 0.9837287969672135, 3, 69777497327), 1000)
+('pair support', 3)
+chrom ratio chr1 1.1315956770502227
+chrom ratio chr2 1.2790845518118248
+chrom ratio chr2 1.2790845518118248
+chrom ratio chr2 1.2790845518118248
+chrom ratio chr2 1.2790845518118248
+chrom ratio chr8 1.1846789574062302
+chrom ratio chr12 0.8871582962492053
+chrom ratio chr13 1.0
+chrom ratio chr14 0.898283534647171
+chrom ratio chr14 0.898283534647171
+chrom ratio chr14 0.898283534647171
+chrom ratio chr15 1.0
+chrom ratio chr15 1.3410680228862049
+chrom ratio chr15 1.3410680228862049
+chrom ratio chr15 1.3410680228862049
+chrom ratio chr15 1.3410680228862049
+chrom ratio chr16 1.1306420851875398
+chrom ratio chr16 1.1306420851875398
+chrom ratio chr17 0.9233947870311509
+chrom ratio chr20 1.8569612205975843
+chrom ratio chrX 0.43579148124602674
+chrom ratio chrX 0.43579148124602674
+chrom ratio chrX 0.43579148124602674
+[root:INFO]	Commandline: /opt/genepatt/programs/AmpliconArchitect-master/src/AmpliconArchitect.py  --ref  GRCh38  --downsample  10  --bed  /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_AA_CNV_SEEDS.bed  --bam  /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765.cs.rmdup.bam  --runmode  FULL  --out  /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765//SRR8670765_AA_results//SRR8670765  
+[root:INFO]	AmpliconArchitect version 1.3_r1
+
+[root:INFO]	Python version 2.7.18 (default, Mar  8 2021, 13:02:45) 
+[GCC 9.3.0]
+
+[root:INFO]	#TIME 0.140	Loading libraries and reference annotations for: GRCh38
+Global ref name is GRCh38
+[root:INFO]	#TIME 2.054	Initiating bam_to_breakpoint object for: /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765.cs.rmdup.bam
+[root:INFO]	#TIME 2.055	Reusing cstats from /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/.data_repo/coverage.stats
+[root:INFO]	#TIME 2.056	Exploring interval: chr15	17000000	17075006
+[root:INFO]	#TIME 9.477	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 62.446	 Detecting breakpoint edges (interval neighbors)
+[root:INFO]	#TIME 75.284	 Selecting neighbors
+[root:INFO]	#TIME 87.137	 New neighbor: chr13	16002783	16023393	4 (weight=4)
+[root:INFO]	#TIME 87.137	 New neighbor: chr20	28762354	28782964	4 (weight=4)
+[root:INFO]	#TIME 88.248	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 141.213	 Detecting breakpoint edges (interval neighbors)
+[root:INFO]	#TIME 146.690	 Selecting neighbors
+[root:INFO]	#TIME 153.480	 New neighbor: chr13	15999880	16040490	2 (weight=2)
+[root:INFO]	#TIME 155.260	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 304.119	 Detecting breakpoint edges (interval neighbors)
+[root:INFO]	#TIME 308.021	 Selecting neighbors
+[root:INFO]	#TIME 312.046	 New neighbor: chr14	16117506	16138116	2 (weight=2)
+[root:INFO]	#TIME 312.369	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 312.470	 Detecting breakpoint edges (interval neighbors)
+[root:INFO]	#TIME 318.860	 Selecting neighbors
+[root:INFO]	#TIME 319.914	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 352.221	 Detecting breakpoint edges (interval neighbors)
+[root:INFO]	#TIME 354.787	 Selecting neighbors
+[root:INFO]	#TIME 461.530	 New neighbor: chr22	12418286	12438895	5 (weight=5)
+[root:INFO]	#TIME 461.577	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 496.973	 Detecting breakpoint edges (interval neighbors)
+[root:INFO]	#TIME 498.517	 Selecting neighbors
+[root:INFO]	#TIME 588.436	Exploring interval: chrX	75512203	75642200
+[root:INFO]	#TIME 620.910	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 676.135	 Detecting breakpoint edges (interval neighbors)
+[root:INFO]	#TIME 677.764	 Selecting neighbors
+[root:INFO]	#TIME 679.972	 New neighbor: chrX	155965214	155995823	3 (weight=3)
+[root:INFO]	#TIME 680.766	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 700.652	 Detecting breakpoint edges (interval neighbors)
+[root:INFO]	#TIME 702.263	 Selecting neighbors
+[root:INFO]	#TIME 706.509	Interval sets for amplicons determined: 
+[root:INFO]	[amplicon1]	chr13:15999880-16040490,chr14:16117506-16138116,chr15:17000000-17105006,chr20:28762354-28782964,chr22:12418286-12438895
+[root:INFO]	[amplicon2]	chrX:75512203-75642200,chrX:155965214-155995823
+[root:INFO]	#TIME 706.511	Reconstructing amplicon1
+[root:INFO]	#TIME 706.512	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 706.608	 Detecting breakpoint edges (interval filter vertices
+[root:INFO]	#TIME 730.197	 Building breakpoint graph
+[root:INFO]	#TIME 730.861	 Optimizing graph copy number flow
+[root:INFO]	#TIME 735.606	 Plotting SV View
+[root:INFO]	#TIME 735.789	Plotting SV View for amplicon1
+[root:INFO]	#TIME 861.926	Reconstructing amplicon2
+[root:INFO]	#TIME 861.950	 Calculating coverage meanshift segmentation
+[root:INFO]	#TIME 861.977	 Detecting breakpoint edges (interval filter vertices
+[root:INFO]	#TIME 865.050	 Building breakpoint graph
+[root:INFO]	#TIME 865.201	 Optimizing graph copy number flow
+[root:INFO]	#TIME 867.269	 Plotting SV View
+[root:INFO]	#TIME 867.287	Plotting SV View for amplicon2
+[root:INFO]	#TIME 893.291	Total Runtime
+AmpliconClassifier 0.4.8
+reading /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/.data_repo/GRCh38/Genes_hg38.gff
+read 22998 genes
+
+SRR8670765 amplicon1
+SRR8670765 amplicon2
+writing output files
+done
+2022-05-24 13:00:20.878447
+PrepareAA version 0.1032.4
+
+Matched /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765.cs.rmdup.bam to reference genome GRCh38
+Running PrepareAA on sample: SRR8670765
+
+Running CNVKit batch
+python3 /opt/genepatt/programs/cnvkit.py batch -m wgs -r /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/.data_repo/GRCh38/GRCh38_cnvkit_filtered_ref.cnn -p 1 -d /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/ /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765.cs.rmdup.bam
+
+Running CNVKit segment
+python3 /opt/genepatt/programs/cnvkit.py segment /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cnr  -p 1 -m cbs -o /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cns
+
+Cleaning up temporary files
+rm /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output//*tmp.bed /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output//*.cnn
+gzip /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cnr
+
+Running amplified_intervals
+python2 /opt/genepatt/programs/AmpliconArchitect-master/src/amplified_intervals.py --ref GRCh38 --bed /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup_CNV_GAIN.bed --bam /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765.cs.rmdup.bam --gain 4.5 --cnsize_min 50000 --out /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_AA_CNV_SEEDS
+
+Running AA with default arguments (& downsample 10). To change settings run AA separately.
+python2 /opt/genepatt/programs/AmpliconArchitect-master/src/AmpliconArchitect.py --ref GRCh38 --downsample 10 --bed /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_AA_CNV_SEEDS.bed --bam /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765.cs.rmdup.bam --runmode FULL --out /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765//SRR8670765_AA_results//SRR8670765
+
+Running AC
+/opt/genepatt/programs/AmpliconClassifier-main/make_input.sh /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765//SRR8670765_AA_results/ /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765//SRR8670765_classification/SRR8670765
+python3 /opt/genepatt/programs/AmpliconClassifier-main/amplicon_classifier.py -i /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765//SRR8670765_classification/SRR8670765.input --ref GRCh38 -o /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765//SRR8670765_classification/SRR8670765 --annotate_cycles_file --report_complexity
+python3 /opt/genepatt/programs/AmpliconClassifier-main/make_results_table.py -i /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765//SRR8670765_classification/SRR8670765.input --classification_file /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765//SRR8670765_classification/SRR8670765_amplicon_classification_profiles.tsv
+Completed
+
+2022-05-24 14:22:53.918600
+Finished Running
+Current time : Tue May 24 14:22:54 PDT 2022

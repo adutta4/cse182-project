@@ -1,0 +1,7 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr14	67796446	chr2	39614690	interchromosomal	2	None	+-	67796445	39614691
+chr14	75583137	chr14	75787767	deletion-like	15	Complex non-cyclic	+-	75583136	75787768
+chr14	67799795	chr14	76355967	deletion-like	7	None	+-	67799794	76355968
+chr14	67796357	chr14	76356336	duplication-like	3	None	-+	67796358	76356335
+chr14	76531565	chr14	76532815	deletion-like	5	Complex non-cyclic	+-	76531564	76532816
+chr14	74033759	chr14	78843156	inversion	4	Complex non-cyclic	--	74033760	78843157

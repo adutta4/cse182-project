@@ -1,0 +1,27 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr13	16000523	chr13	16006295	deletion-like	5	Complex non-cyclic	+-	16000522	16006296
+chr13	16001657	chr13	16007358	deletion-like	5	Complex non-cyclic	+-	16001656	16007359
+chr13	16004989	chr13	16016391	deletion-like	7	Complex non-cyclic	+-	16004988	16016392
+chr13	16011926	chr13	16017197	deletion-like	5	Complex non-cyclic	+-	16011925	16017198
+chr13	16012975	chr13	16018619	duplication-like	5	None	-+	16012976	16018618
+chr13	16013954	chr13	16019592	duplication-like	3	Complex non-cyclic	-+	16013955	16019591
+chr13	16009029	chr13	16020464	deletion-like	4	Complex non-cyclic	+-	16009028	16020465
+chr13	16015028	chr13	16020603	duplication-like	10	Complex non-cyclic	-+	16015029	16020602
+chr13	16016362	chr13	16022063	duplication-like	20	Complex non-cyclic	-+	16016363	16022062
+chr13	16016569	chr13	16022296	deletion-like	24	Complex non-cyclic	+-	16016568	16022297
+chr13	16011193	chr13	16022536	duplication-like	13	Complex non-cyclic	-+	16011194	16022535
+chr13	16031321	chr13	16056983	duplication-like	6	None	-+	16031322	16056982
+chr13	16057076	chr22	12420945	interchromosomal	4	None	+-	16057075	12420946
+chr15	17059413	chr13	16022485	interchromosomal	8	Complex non-cyclic	-+	17059414	16022484
+chr20	28754672	chr15	17068236	interchromosomal	4	Complex non-cyclic	++	28754671	17068235
+chr20	28754933	chr20	28757950	deletion-like	11	Complex non-cyclic	+-	28754932	28757951
+chr20	28769354	chr20	28771433	duplication-like	11	Complex non-cyclic	-+	28769355	28771432
+chr20	28782998	chr15	17026353	interchromosomal	5	Complex non-cyclic	++	28782997	17026352
+chr20	29155975	chr20	29187554	deletion-like	13	None	+-	29155974	29187555
+chr20	29130305	chr20	29193420	duplication-like	7	None	-+	29130306	29193419
+chr20	29152389	chr20	29197173	duplication-like	10	None	-+	29152390	29197172
+chr20	29164463	chr20	29204045	deletion-like	3	None	+-	29164462	29204046
+chr20	29199360	chr20	29204156	duplication-like	6	None	-+	29199361	29204155
+chr20	29215134	chr15	17022558	interchromosomal	3	Complex non-cyclic	+-	29215133	17022559
+chr20	29119084	chr20	30418491	deletion-like	3	Complex non-cyclic	+-	29119083	30418492
+chr20	29125545	chr20	30424597	deletion-like	3	Complex non-cyclic	+-	29125544	30424598

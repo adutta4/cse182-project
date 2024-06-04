@@ -1,0 +1,5 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr6	38570136	chr6	38584141	foldback	8	Linear amplification	++	38570135	38584140
+chr6	38568314	chr6	38584142	foldback	4	Linear amplification	--	38568315	38584143
+chr6	38584366	chr12	30550129	interchromosomal	5	Linear amplification	++	38584365	30550128
+chr12	30549815	chr12	30553414	duplication-like	8	None	-+	30549816	30553413

@@ -1,0 +1,18 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr13	16000621	chr13	16006292	deletion-like	9	None	+-	16000620	16006293
+chr13	16002583	chr13	16014014	duplication-like	4	Complex non-cyclic	-+	16002584	16014013
+chr13	16005104	chr13	16016371	deletion-like	10	Complex non-cyclic	+-	16005103	16016372
+chr13	16010595	chr13	16016390	deletion-like	2	Complex non-cyclic	+-	16010594	16016391
+chr13	16013987	chr13	16019631	duplication-like	5	Complex non-cyclic	-+	16013988	16019630
+chr13	16016366	chr13	16021885	duplication-like	4	Complex non-cyclic	-+	16016367	16021884
+chr13	16016563	chr13	16022294	deletion-like	19	None	+-	16016562	16022295
+chr15	17059383	chr13	16022465	interchromosomal	6	None	-+	17059384	16022464
+chr15	17090647	chr15	17103375	duplication-like	3	Complex non-cyclic	-+	17090648	17103374
+chr20	28943502	chr20	28947019	duplication-like	4	Complex non-cyclic	-+	28943503	28947018
+chr20	28774720	chr20	28954275	inversion	6	Complex non-cyclic	++	28774719	28954274
+chr20	29177678	chr20	29183664	deletion-like	2	None	+-	29177677	29183665
+chr20	29155821	chr20	29187757	deletion-like	7	None	+-	29155820	29187758
+chr20	29164488	chr20	29204017	deletion-like	4	None	+-	29164487	29204018
+chr20	29171036	chr20	29204128	deletion-like	4	None	+-	29171035	29204129
+chr20	29199361	chr20	29204158	duplication-like	4	None	-+	29199362	29204157
+chr20	29215138	chr15	17022512	interchromosomal	4	Complex non-cyclic	+-	29215137	17022513

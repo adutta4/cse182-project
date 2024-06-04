@@ -1,0 +1,11 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr1	156186918	chr14	44417469	interchromosomal	5	None	++	156186917	44417468
+chr1	156556930	chr1	156559143	deletion-like	43	Linear amplification	+-	156556929	156559144
+chr1	157513864	chr1	157515102	foldback	10	Linear amplification	--	157513865	157515103
+chr1	157513829	chr1	157515177	foldback	8	Linear amplification	++	157513828	157515176
+chr1	158146667	chr1	158147147	duplication-like	6	Linear amplification	-+	158146668	158147146
+chr1	158574851	chr1	158575335	duplication-like	7	Linear amplification	-+	158574852	158575334
+chr1	158897703	chr1	158900191	deletion-like	20	Linear amplification	+-	158897702	158900192
+chr1	159129786	chr1	159130230	duplication-like	5	Linear amplification	-+	159129787	159130229
+chr1	159678917	chr1	159679867	deletion-like	36	Linear amplification	+-	159678916	159679868
+chr1	160092339	chr1	160093111	duplication-like	7	Linear amplification	-+	160092340	160093110

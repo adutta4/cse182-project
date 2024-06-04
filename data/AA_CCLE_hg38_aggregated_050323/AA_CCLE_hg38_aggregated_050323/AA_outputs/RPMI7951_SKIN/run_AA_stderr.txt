@@ -1,0 +1,223 @@
+/usr/bin/ps: /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/anaconda3-2020.11-da3i7hmt6bdqbmuzq6pyt7kbm47wyrjp/lib/libuuid.so.1: no version information available (required by /lib64/libblkid.so.1)
+/usr/bin/ps: /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/anaconda3-2020.11-da3i7hmt6bdqbmuzq6pyt7kbm47wyrjp/lib/libuuid.so.1: no version information available (required by /lib64/libblkid.so.1)
+FATAL:   Image file already exists: "amplicon-architect_v1.2.1.sif" - will not overwrite
+/usr/local/lib/python3.8/dist-packages/skgenome/intersect.py:11: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import Int64Index
+CNVkit 0.9.7
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/GRCh38_cnvkit_filtered_ref.target-tmp.bed with 568558 regions
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/GRCh38_cnvkit_filtered_ref.antitarget-tmp.bed with 0 regions
+Running 1 samples in serial
+Running the CNVkit pipeline on /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765.cs.rmdup.bam ...
+Processing reads in SRR8670765.cs.rmdup.bam
+Time: 3438.116 seconds (269018 reads/sec, 165 bins/sec)
+Summary: #bins=568558, #reads=924915427, mean=1626.7741, min=0.0, max=19838.742574257427 
+Percent reads in regions: 92.151 (of 1003694312 mapped)
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.targetcoverage.cnn with 568558 regions
+Skip processing SRR8670765.cs.rmdup.bam with empty regions file /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/GRCh38_cnvkit_filtered_ref.antitarget-tmp.bed
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.antitargetcoverage.cnn with 0 regions
+Processing target: SRR8670765.cs.rmdup
+Keeping 566505 of 568558 bins
+Correcting for GC bias...
+Processing antitarget: SRR8670765.cs.rmdup
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cnr with 566505 regions
+Segmenting /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cnr ...
+Segmenting with method 'cbs', significance threshold 1e-06, in 1 processes
+Post-processing /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cns ...
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cns with 1161 regions
+Applying filter 'ci'
+Filtered by 'ci' from 1161 to 538 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 2
+log2=nan found; replacing with neutral copy number 1
+log2=nan found; replacing with neutral copy number 1
+log2=nan found; replacing with neutral copy number 1
+log2=nan found; replacing with neutral copy number 1
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.call.cns with 538 regions
+Segments do not cover all bins (566505), only 566500 of them
+Significant hits in 0/566500 bins (0%)
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.bintest.cns with 0 regions
+/usr/local/lib/python3.8/dist-packages/skgenome/intersect.py:11: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import Int64Index
+Dropped 2047 rows with missing log2 values
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Smoothing overshot at 2 / 17592 indices: (-26.952990296420168, 1.6597665500422187) vs. original (-24.8353, 1.80196)
+Smoothing overshot at 7 / 5170 indices: (-17.132297683408773, 2.2319967511055996) vs. original (-25.0449, 1.25838)
+Smoothing overshot at 7 / 7418 indices: (-27.03907348460273, 2.2066060259311406) vs. original (-24.8366, 1.67349)
+Smoothing overshot at 13 / 7047 indices: (-26.135566684859086, 1.8697284368561484) vs. original (-24.9065, 1.18329)
+Smoothing overshot at 8 / 1972 indices: (-24.878881143064202, 0.18598699442663857) vs. original (-24.1221, 0.261933)
+Smoothing overshot at 27 / 3141 indices: (-24.8609827866703, 0.20684064167116356) vs. original (-24.1215, 0.513906)
+Wrote /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cns with 1369 regions
+gzip: /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670765/SRR8670765_cnvkit_output/SRR8670765.cs.rmdup.cnr.gz already exists;	not overwritten
+/usr/local/lib/python2.7/dist-packages/matplotlib/font_manager.py:1333: UserWarning: findfont: Font family [u'sans-serif'] not found. Falling back to DejaVu Sans
+  (prop.get_family(), self.defaultFamily[fontext]))

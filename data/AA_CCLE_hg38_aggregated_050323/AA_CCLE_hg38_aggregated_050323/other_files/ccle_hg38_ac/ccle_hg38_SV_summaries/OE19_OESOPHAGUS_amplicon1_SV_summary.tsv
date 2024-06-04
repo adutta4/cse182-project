@@ -1,0 +1,4 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr6	44044546	chr6	44045275	duplication-like	10	Linear amplification	-+	44044547	44045274
+chr6	44765782	chr6	44774800	deletion-like	17	Linear amplification	+-	44765781	44774801
+chr6	45266999	chr6	45269453	foldback	17	Linear amplification	++	45266998	45269452

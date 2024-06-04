@@ -1,0 +1,12 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr13	16005107	chr13	16016394	deletion-like	16	Complex non-cyclic	+-	16005106	16016395
+chr13	16010620	chr13	16016404	deletion-like	2	Complex non-cyclic	+-	16010619	16016405
+chr13	16013936	chr13	16019640	duplication-like	8	Complex non-cyclic	-+	16013937	16019639
+chr13	16016372	chr13	16022055	duplication-like	6	Complex non-cyclic	-+	16016373	16022054
+chr13	16016563	chr13	16022322	deletion-like	5	Complex non-cyclic	+-	16016562	16022323
+chr13	16031321	chr13	16057043	duplication-like	6	Complex non-cyclic	-+	16031322	16057042
+chr15	17059386	chr13	16022463	interchromosomal	3	Complex non-cyclic	-+	17059387	16022462
+chr20	28767877	chr13	16030817	interchromosomal	3	Complex non-cyclic	++	28767876	16030816
+chr20	28769108	chr20	28770217	deletion-like	3	Complex non-cyclic	+-	28769107	28770218
+chr20	28775010	chr15	17030750	interchromosomal	6	Complex non-cyclic	--	28775011	17030751
+chr20	28782809	chr15	17026603	interchromosomal	2	Complex non-cyclic	--	28782810	17026604

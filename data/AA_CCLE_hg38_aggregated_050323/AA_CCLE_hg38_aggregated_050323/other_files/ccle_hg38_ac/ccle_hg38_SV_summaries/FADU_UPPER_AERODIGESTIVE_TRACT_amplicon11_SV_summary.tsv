@@ -1,0 +1,6 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr22	46728237	chr22	46760173	duplication-like	5	Complex non-cyclic	-+	46728238	46760172
+chr22	45822546	chr22	47106575	duplication-like	6	Complex non-cyclic	-+	45822547	47106574
+chr22	48667792	chr22	48668490	deletion-like	14	Complex non-cyclic	+-	48667791	48668491
+chr22	49973689	chr22	49975378	deletion-like	7	Complex non-cyclic	+-	49973688	49975379
+chr22	50217084	chr22	50217770	foldback	34	Complex non-cyclic	++	50217083	50217769

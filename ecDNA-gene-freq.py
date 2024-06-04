@@ -1,7 +1,7 @@
 import pandas as pd
 
 def main():
-    aggData = pd.read_csv('aggregated_results.csv')
+    aggData = pd.read_csv('./data/aggregated_results.csv')
     aggData = aggData[['Sample name', 'Classification', 'All genes']]
 
     #filter for breast cancer samples

@@ -1,0 +1,2 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chrX	111035953	chrX	111036399	duplication-like	4	None	-+	111035954	111036398

@@ -1,0 +1,2 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr9	81390510	chr9	81390951	foldback	11	Linear amplification	++	81390509	81390950

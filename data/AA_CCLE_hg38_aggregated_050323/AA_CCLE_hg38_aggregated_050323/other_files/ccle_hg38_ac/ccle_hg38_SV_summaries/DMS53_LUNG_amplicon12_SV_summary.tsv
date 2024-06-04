@@ -1,0 +1,14 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr12	3197727	chr12	3198838	deletion-like	16	None	+-	3197726	3198839
+chr12	3753183	chr12	3754024	duplication-like	9	ecDNA	-+	3753184	3754023
+chr12	3552049	chr12	4785423	duplication-like	34	ecDNA	-+	3552050	4785422
+chr12	4973050	chr12	4973920	deletion-like	12	ecDNA	+-	4973049	4973921
+chr12	5726785	chr12	5741503	duplication-like	20	ecDNA	-+	5726786	5741502
+chr12	5881982	chr12	23413607	deletion-like	97	ecDNA	+-	5881981	23413608
+chr12	5543913	chr12	23458157	duplication-like	18	ecDNA	-+	5543914	23458156
+chr12	23786587	chr12	23787154	deletion-like	67	unknown	+-	23786586	23787155
+chr12	23867154	chr12	24452515	duplication-like	58	ecDNA	-+	23867155	24452514
+chr12	24861987	chr12	24862604	duplication-like	5	ecDNA	-+	24861988	24862603
+chr12	24669575	chr12	25180635	duplication-like	12	ecDNA	-+	24669576	25180634
+chr12	25590143	chr12	25591139	duplication-like	124	ecDNA	-+	25590144	25591138
+chr12	3261649	chr12	25961522	duplication-like	88	ecDNA	-+	3261650	25961521

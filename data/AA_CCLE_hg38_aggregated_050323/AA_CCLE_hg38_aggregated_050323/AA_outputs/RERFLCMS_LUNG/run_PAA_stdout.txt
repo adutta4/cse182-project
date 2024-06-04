@@ -1,0 +1,73 @@
+Current time : Mon May 23 23:30:05 PDT 2022
+This is working
+
+
+python2 /opt/genepatt/programs/PrepareAA-master/PrepareAA.py -s SRR8670760 -t 24 --ref GRCh38 --fastqs /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_1.fastq /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_2.fastq
+
+
+total 4279847
+drwxr-sr-x 4 edwin5588 csd714      75776 Mar 14 08:54 GRCh38
+-rw-r--r-- 1 edwin5588 csd714         56 May 18 18:18 GRCh38_indexed_md5sum.txt
+-rw-r--r-- 1 edwin5588 csd714 4605659201 May 19 09:37 GRCh38_indexed.tar.gz
+drwxrwsrwx 4 edwin5588 csd714      57344 May 23 23:30 ..
+-rw-r--r-- 1 edwin5588 csd714          0 May 23 23:32 coverage.stats
+drwxr-sr-x 3 edwin5588 csd714      57344 May 23 23:32 .
+Global ref name is GRCh38
+('read length:', 100.90196294872767, 'insert size:', 329.7033043675902, 'insert std dev:', 58.90978887099346, 'max_insert:', 506.4326709805706, 'percent proper:', 0.8816050970435853, 'num_sdevs', 3)
+('coverage stats', (44.21081908222425, 44.89325454697976, 11.123403732731363, 44.249365811402164, 44.33275113951703, 17.73500220934543, 100.90196294872767, 329.7033043675902, 58.90978887099346, 152.9739377546098, 506.4326709805706, 4, 0.8816050970435853, 3, 119288839594), 997)
+('pair support', 4)
+chrom ratio chr1 1.183249657690552
+chrom ratio chr1 1.183249657690552
+chrom ratio chr1 1.25445002282063
+chrom ratio chr2 1.191921497033318
+chrom ratio chr8 0.9776357827476038
+chrom ratio chr9 1.1866727521679596
+chrom ratio chr13 1.0
+chrom ratio chr13 1.0
+chrom ratio chr13 1.0
+chrom ratio chr17 1.0159744408945686
+chrom ratio chr21 0.6289365586490187
+chrom ratio chrX 0.6437699680511182
+chrom ratio chrY 0.7466910086718392
+chrom ratio chrY 0.7466910086718392
+chrom ratio chrY 0.7918758557736192
+chrom ratio chrY 0.7918758557736192
+chrom ratio chrY 0.7918758557736192
+chrom ratio chrY 0.7918758557736192
+chrom ratio chrY 0.7918758557736192
+chrom ratio chrY 0.7918758557736192
+2022-05-23 23:32:08.602506
+PrepareAA version 0.1032.4
+
+Running PrepareAA on sample: SRR8670760
+Running pipeline on /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_1.fastq /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_2.fastq
+/expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760
+Checking for ref index
+
+Performing alignment and sorting
+{ bwa mem -t 24 /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/.data_repo/GRCh38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_1.fastq /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_2.fastq | samtools view -Shu - | samtools sort -m 4G -@4 -o /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.bam -; } 2>/expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_aln_stage.stderr
+
+Performing duplicate removal & indexing
+samtools rmdup -s /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.bam /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.rmdup.bam
+
+Running samtools index
+samtools index /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.rmdup.bam
+Removing temp BAM
+
+Running CNVKit batch
+python3 /opt/genepatt/programs/cnvkit.py batch -m wgs -r /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/.data_repo/GRCh38/GRCh38_cnvkit_filtered_ref.cnn -p 24 -d /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/ /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.rmdup.bam
+
+Running CNVKit segment
+python3 /opt/genepatt/programs/cnvkit.py segment /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.cnr  -p 24 -m cbs -o /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.cns
+
+Cleaning up temporary files
+rm /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output//*tmp.bed /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output//*.cnn
+gzip /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup.cnr
+
+Running amplified_intervals
+python2 /opt/genepatt/programs/AmpliconArchitect-master/src/amplified_intervals.py --ref GRCh38 --bed /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_cnvkit_output/SRR8670760.cs.rmdup_CNV_GAIN.bed --bam /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760.cs.rmdup.bam --gain 4.5 --cnsize_min 50000 --out /expanse/lustre/projects/csd714/edwin5588/CCLE/run_aa/SRR8670760/SRR8670760_AA_CNV_SEEDS
+Completed
+
+2022-05-24 11:40:43.347782
+Finished Running
+Current time : Tue May 24 11:40:43 PDT 2022

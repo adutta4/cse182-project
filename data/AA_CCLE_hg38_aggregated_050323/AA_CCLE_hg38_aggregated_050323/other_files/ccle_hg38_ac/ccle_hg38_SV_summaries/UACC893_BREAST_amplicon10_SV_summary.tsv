@@ -1,0 +1,16 @@
+chrom1	pos1	chrom2	pos2	sv_type	read_support	features	orientation	pos1_flanking_coordinate	pos2_flanking_coordinate
+chr20	51266545	chr20	51273077	deletion-like	7	None	+-	51266544	51273078
+chrX	53787234	chrX	53797680	foldback	2	Complex non-cyclic	++	53787233	53797679
+chrX	53791954	chrX	53923792	inversion	3	Complex non-cyclic	--	53791955	53923793
+chrX	52857701	chrX	55652507	duplication-like	2	None	-+	52857702	55652506
+chrX	52862919	chrX	55652521	deletion-like	7	None	+-	52862918	55652522
+chrX	57027862	chrX	57028762	deletion-like	11	Complex non-cyclic	+-	57027861	57028763
+chrX	57224899	chr20	51266545	interchromosomal	4	None	-+	57224900	51266544
+chrX	57220142	chrX	57225061	duplication-like	2	None	-+	57220143	57225060
+chrX	57221332	chrX	57225064	deletion-like	3	None	+-	57221331	57225065
+chrX	57195074	chrX	57303994	deletion-like	10	Complex non-cyclic	+-	57195073	57303995
+chrX	57313705	chr20	51274056	interchromosomal	5	None	++	57313704	51274055
+chrX	57224970	chrX	57318531	duplication-like	2	None	-+	57224971	57318530
+chrX	57220142	chrX	57318674	duplication-like	5	None	-+	57220143	57318673
+chrX	57221039	chrX	57318740	inversion	3	None	--	57221040	57318741
+chrX	57224397	chrX	57318978	duplication-like	8	None	-+	57224398	57318977
